@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+  height: 100&;
+}
+.card {
+  width: 50vw;
+  height: 70vw;
+  background-color: #ffffff;
+  box-shadow: 0 2em 4em rgba(0, 0, 0, 0.15);
+  border-radius: 0.5em;
+  font-size: 2.5em;
+}
+.card.red {
+  color: red;
+}
+.card-topleft {
+  .position: absolute;
+  top: 0.25em;
+  left: 0.75em;
+}
+.card-bottomright {
+  .position: absolute;
+  bottom: 0.25em;
+  right: 0.75em;
+  transform: rotate(180deg);
+}
+.card-corner-rank,
+.card-corner-suit {
+  width: 3em;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
